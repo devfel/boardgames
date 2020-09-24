@@ -9,14 +9,24 @@ const ATLAS_API =
 const ATLAS_SEARCH_API = "https://www.boardgameatlas.com/api/search?";
 
 const App = () => {
-  const boardgames = ["1", "2", "3"];
+  const [boardgames, setBoardgames] = React.useState([]);
+
+  React.useEffect(() => {
+    fetch(ATLAS_API)
+      .then((resp) => resp.json())
+      .then((data) => {
+        console.log(data.games); // REMOVE THIS AFTER FINISH
+        setBoardgames(data.games);
+      });
+  }, []);
+
   return (
-    <>
+    <div className="boardgames-container">
       {boardgames.map((item) => (
-        <Boardgame />
+        <Boardgame key={item.id} {...item} />
       ))}
       ;
-    </>
+    </div>
   );
 };
 export default App;

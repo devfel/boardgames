@@ -4,7 +4,35 @@
 
 body {
   background-color: #413c58;
-  color: #e7efc5;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.boardgames-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boardgame {
+  background-color: #aeadf0;
+  color: #413c58;
+  width: 300px;
+  margin: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.boardgame img {
+  width: 100%;
+}
+
+.boardgame-info {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boardgame-info h3 {
   margin: 0;
 }
