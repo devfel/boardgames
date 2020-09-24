@@ -1,5 +1,5 @@
 {
-  "homepage": "https://devfel.github.io/boardgames/public/",
+  "homepage": "https://devfel.github.io/boardgames",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "name": "boardgames",
