@@ -1,12 +1,13 @@
 import React from "react";
 
-function Boardgame() {
+function Boardgame({ name, description_preview, average_user_rating, images }) {
   return (
     <div className="boardgame">
-      {" "}
-      <h3>Board Game Title</h3>
-      <p>Board Game Description</p>
-      <p>Rating: 9.0</p>
+      <img src={images.medium} alt={name}></img>
+      <div className="boardgame-info">
+        <h3>{name}</h3>
+        <span>{(average_user_rating * 20).toFixed(1)}</span>
+      </div>
     </div>
   );
 }
