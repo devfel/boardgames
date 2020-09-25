@@ -74,3 +74,12 @@ body {
   font-size: 0.85rem;
   margin: 0;
 }
+
+.loading {
+  color: #d8dcff;
+  min-height: 100vh;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
