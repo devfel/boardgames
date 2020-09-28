@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Board Games Listing
+
+Try it live: https://devfel.github.io/boardgames/
+
+> Description
+
+- A react project done to list top trending bord games.
+- Project was built using a JSON API to fetch the data from boardgameatlas. 
+- The project list the games, show each of their ratings and show a little description on mouseover.
+
+> Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- JSON
+
+
 
 ## Available Scripts
 
