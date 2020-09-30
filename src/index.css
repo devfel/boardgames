@@ -100,3 +100,20 @@ header {
   outline: none;
   color: #413c58;
 }
+
+.tag {
+  background-color: #413c58;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.tag.high {
+  color: #fbff00;
+}
+.tag.medium {
+  color: #bcbd7c;
+}
+.tag.low {
+  color: #ffffff;
+}
