@@ -83,3 +83,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #aeadf0;
+  padding: 0.5rem 1.5rem;
+}
+
+.search-bar {
+  background-color: transparent;
+  border: 2px solid #d8dcff;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  color: #413c58;
+}
