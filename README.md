@@ -1,86 +1,105 @@
-# Board Games Listing
+<p align="center">
+  <a href="https://devfel.com/" rel="noopener">
+ <img  src="https://devfel.com/imgs/devfel-logo-01.JPG" alt="DevFel"></a>
+</p>
 
-Try it live: https://devfel.github.io/boardgames/
+<h1 align="center">Board Games Listing</h1>
 
-> Description
+<div align="center">
 
-- A react project done to list top trending bord games.
-- Project was built using a JSON API to fetch the data from boardgameatlas. 
-- The project list the games, show each of their ratings and show a little description on mouseover.
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-> Technologies Used
+</div>
 
-- React
-- JavaScript
-- HTML
-- CSS
-- JSON
+---
 
+<p align="center"> 
+A responsive react project done to list top trending bord games. Project was built using a JSON API to fetch the data from boardgameatlas. The project list the games, show each of their ratings and show a little description on mouseover.
+</p>
 
+---
 
-## Available Scripts
+## 📝 Table of Contents
 
-In the project directory, you can run:
+- [Test Here](#live)
+- [Application Features](#features)
+- [Getting Started](#getting_started)
+- [Dependencies](#dependencies)
+- [Built Using](#built_using)
+- [Acknowledgements](#acknowledgements)
+- [Licenses](#licenses)
+- [Authors](#authors)
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
+## 🕹 Test Here <a name = "live"></a>
+
+https://devfel.github.io/boardgames/
+
+---
+
+## 🧐 Application Features <a name = "features"></a>
+
+- **_Example Title:_** Example Text.
+
+---
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+You can clone the repository through Command Prompt or Terminal just by typing:
+
+```sh
+git clone https://github.com/devfel/boardgames.git
+```
+
+or download the zip from the green **"Code"** button.
+
+In the project directory, you can use the following command to runs the app in the development mode:
+
+```sh
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔁 Dependencies <a name = "dependencies"></a>
 
-### `npm run build`
+Some project library dependencies includes but are not limited to:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- "react": "^16.14.0",
+- "react-dom": "^16.14.0",
+- "react-scripts": "3.4.3"
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⛏️ Built Using <a name = "built_using"></a>
 
-### `npm run eject`
+- [ReactJS](https://reactjs.org/) - Web Framework
+- [JavaScript](https://www.javascript.com/) - Programming Language
+- [HTML](https://pt.wikipedia.org/wiki/HTML) - Markup Language
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Style Sheets
+- [JSON](https://www.json.org/json-en.html) - Object Notation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎉 Acknowledgements <a name = "acknowledgements"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Project done based on [Florin Pop](https://www.florin-pop.com/) examples.
+- JSON data fetched from [Board Game Atlas](https://www.boardgameatlas.com/api/docs) API.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📝 Liceses <a name = "licenses"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Distributed under the MIT License - see the [LICENSE.md](https://github.com/devfel/boardgames/blob/master/LICENSE.md) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✍️ Author <a name = "authors"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [@devfel](https://devfel.com/) - Luiz Flávio Felizardo
