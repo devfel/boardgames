@@ -18,6 +18,10 @@
 A responsive react project done to list top trending bord games. Project was built using a JSON API to fetch the data from boardgameatlas. The project list the games, show each of their ratings and show a little description on mouseover.
 </p>
 
+  <p align="center">
+    <img  width="600px" src="./assets/board-games-list.gif" alt="Board Game List"></a>
+  </p>
+
 ---
 
 ## 📝 Table of Contents
