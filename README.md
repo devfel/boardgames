@@ -75,8 +75,8 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 Some project library dependencies includes but are not limited to:
 
-- "react": "^16.14.0",
-- "react-dom": "^16.14.0",
+- "react": "^16.13.1",
+- "react-dom": "^16.13.1",
 - "react-scripts": "3.4.3"
 
 ---
