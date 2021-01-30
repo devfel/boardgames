@@ -46,7 +46,7 @@ https://devfel.github.io/boardgames/
 
 ## 🧐 Application Features <a name = "features"></a>
 
-- **_Load TOP Board Games:_** The page load top games data from the boardgameatlas JSON API.
+- **_Load Top Board Games:_** The page load the top games data from the boardgameatlas JSON API.
 - **_Show Description:_** When the user mouseover a game it shows a little description of the game.
 - **_Search Bar:_** It is possible to search for a term on the search bar that loads the data looking for that term on the API.
 
