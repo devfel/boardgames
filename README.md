@@ -16,7 +16,7 @@
 ---
 
 <p align="center"> 
-A responsive react project done to list top trending bord games. Project was built using a JSON API to fetch the data from boardgameatlas. The project list the games, show each of their ratings and show a little description on mouseover.
+A responsive react project done to list top trending bord games. Project was built using a JSON API to fetch the data from Board Game Atlas. This project list the games, show each of their ratings and show a little description on mouseover.
 </p>
 
   <p align="center">
